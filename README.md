@@ -119,8 +119,8 @@
   <br>
   <img src="https://github-readme-stats.vercel.app/api?username=birat04&show_icons=true&locale=en&theme=tokyonight" alt="birat04 GitHub Stats" />
   <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=birat04&theme=tokyonight" alt="birat04 Activity Graph" />
 </div>
+ 
 
 -----
  ### 🌟 Quote of the Day:
