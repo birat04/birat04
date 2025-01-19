@@ -15,9 +15,9 @@
 ### About Me
 - 🎓 **B.Tech CSE student** exploring the depths of software development.  
 - 🌟 Skilled in **HTML, CSS, JavaScript**, and transitioning into **MERN stack** development.  
-- 🌱 Currently learning **React** and **Node.js** to enhance my full-stack expertise.  
+- 🌱 Currently learning **React** and **TypeScript** to enhance my full-stack expertise.  
 - 📫 Reach me at **rokabirat059@gmail.com** for collaborations or questions!  
-- ⚡ Fun Fact: I find joy in debugging — every solved bug feels like a victory! 🐛✨  
+
 
 -----
 
