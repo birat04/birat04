@@ -124,7 +124,9 @@
 
 -----
  ### 🌟 Quote of the Day:
-> “The only way to do great work is to love what you do.” – Steve Jobs
+<!-- QUOTE_START -->
+> "Stay hungry, stay foolish." – Steve Jobs
+<!-- QUOTE_END -->
 
 -----
 
