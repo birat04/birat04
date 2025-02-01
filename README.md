@@ -82,18 +82,12 @@
 -----
 
 ### 🎯 Fun Projects:
-🚀 **AI Chat Application** - A Next.js chatbot integrated with GPT-4 API.  
-🔗 **E-Commerce Platform** - A full-stack MERN application with payment integration.  
+🚀 **AI Chat Application** - A Next.js chatbot integrated with GPT-4 API on making.  
+🔗 **E-Commerce Platform** - A full-stack MERN application with payment integration on making.  
+🔗 **Expenses-Tracker** - A full-stack MERN application on making.  
 
 -----
 
-### 📅 Coding Activity:
-
-text
-🌞 Morning    ███████░░░░░░░░░░░░░░░░   40% 
-🌆 Daytime    ██████░░░░░░░░░░░░░░░░   30% 
-🌃 Evening    ███████████░░░░░░░░░░░░   50% 
-🌙 Night      ██░░░░░░░░░░░░░░░░░░░░   10%
 
 ### 🌟 Quote of the Day:
 <!-- QUOTE_START -->
