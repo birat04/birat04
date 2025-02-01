@@ -2,39 +2,44 @@ name: Update Daily Quote
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight (UTC)
-  workflow_dispatch:     # Allow manual runs
+    - cron: '30 2 * * *'  # 8:00 AM IST = 02:30 UTC (UTC+5:30)
+  workflow_dispatch:
 
 jobs:
   update-quote:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
-        run: sudo apt-get install -y jq  # Install JSON parser
+        run: sudo apt-get install -y jq
 
-      - name: Fetch quote from API
+      - name: Fetch quote
         id: get-quote
         run: |
-          # Fetch quote data from Quotable API
-          QUOTE_JSON=$(curl -s "https://api.quotable.io/random")
-          echo "QUOTE_CONTENT=$(echo $QUOTE_JSON | jq -r '.content')" >> $GITHUB_ENV
-          echo "QUOTE_AUTHOR=$(echo $QUOTE_JSON | jq -r '.author')" >> $GITHUB_ENV
+          if ! QUOTE_JSON=$(curl -sf "https://api.quotable.io/random"); then
+            echo "::error::Failed to fetch quote from API"
+            exit 1
+          fi
+          
+          CONTENT=$(echo "$QUOTE_JSON" | jq -r '.content' | sed -e 's/[\/&]/\\&/g')
+          AUTHOR=$(echo "$QUOTE_JSON" | jq -r '.author' | sed -e 's/[\/&]/\\&/g')
+          
+          echo "QUOTE_CONTENT=$CONTENT" >> $GITHUB_ENV
+          echo "QUOTE_AUTHOR=$AUTHOR" >> $GITHUB_ENV
 
       - name: Update README
         run: |
-          # Replace the old quote with the new one
-          sed -i "/<!-- QUOTE_START -->/,/<!-- QUOTE_END -->/c\\
-          <!-- QUOTE_START -->\\
-          > \"${{ env.QUOTE_CONTENT }}\" – ${{ env.QUOTE_AUTHOR }}\\
-          <!-- QUOTE_END -->" README.md
+          sed -i "/<!-- QUOTE_START -->/,/<!-- QUOTE_END -->/c\
+          <!-- QUOTE_START -->\n> \"${{ env.QUOTE_CONTENT }}\" – ${{ env.QUOTE_AUTHOR }}\n<!-- QUOTE_END -->" README.md
 
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
-          git commit -m "Auto: Update daily quote"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto: Update daily quote"
           git push
