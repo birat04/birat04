@@ -89,22 +89,18 @@
 
 ### 📅 Coding Activity:
 
-```text
+text
 🌞 Morning    ███████░░░░░░░░░░░░░░░░   40% 
 🌆 Daytime    ██████░░░░░░░░░░░░░░░░   30% 
 🌃 Evening    ███████████░░░░░░░░░░░░   50% 
 🌙 Night      ██░░░░░░░░░░░░░░░░░░░░   10%
 
------
 ### 🌟 Quote of the Day:
 <!-- QUOTE_START -->
 > "Stay hungry, stay foolish." – Steve Jobs
 <!-- QUOTE_END -->
 
------
-
 <div align="center">
   <h3>✨ Let's build something amazing together! ✨</h3>
 </div>
-
 
