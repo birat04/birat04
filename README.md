@@ -38,6 +38,11 @@
 
 -----
 
+### 🌐 Portfolio:
+[Visit My Portfolio](https://www.biratroka.com.np)
+
+-----
+
 ### 🛠️ Tech Stack
 
 #### ⚡ Languages:
@@ -70,6 +75,12 @@
 
 -----
 
+### 📜 Certifications:
+![IMS System Programming](https://www.credly.com/badges/7044e838-6b0f-4e87-8948-c3b70b89c08a/linked_in_profile)
+![Cloud Computing Fundamentals](https://www.credly.com/badges/2abd9220-34b3-472a-beb9-3916c6a747fc/linked_in_profile)
+
+-----
+
 ### 📊 GitHub Stats:
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=birat04&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
@@ -81,13 +92,25 @@
 
 -----
 
-### 🎯 Fun Projects:
-🚀 **AI Chat Application** - A Next.js chatbot integrated with GPT-4 API on making.  
-🔗 **E-Commerce Platform** - A full-stack MERN application with payment integration on making.  
-🔗 **Expenses-Tracker** - A full-stack MERN application on making.  
+### 📅 Contributions Calendar:
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=birat04&theme=react-dark)
 
 -----
 
+### 🎯 Fun Projects:
+🚀 **AI Chat Application** - A Next.js chatbot integrated with GPT-4 API on making.  
+![AI Chat App Preview](https://via.placeholder.com/600x400)  
+
+🔗 **E-Commerce Platform** - A full-stack MERN application with payment integration on making.  
+![E-Commerce Platform Preview](https://via.placeholder.com/600x400)  
+
+🔗 **Expenses-Tracker** - A full-stack MERN application on making.  
+![Expenses-Tracker Preview](https://via.placeholder.com/600x400)  
+
+-----
+
+
+-----
 
 ### 🌟 Quote of the Day:
 <!-- QUOTE_START -->
@@ -97,4 +120,3 @@
 <div align="center">
   <h3>✨ Let's build something amazing together! ✨</h3>
 </div>
-
