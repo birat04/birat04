@@ -75,9 +75,7 @@
 
 -----
 
-### 📜 Certifications:
-![IMS System Programming](https://www.credly.com/badges/7044e838-6b0f-4e87-8948-c3b70b89c08a/linked_in_profile)
-![Cloud Computing Fundamentals](https://www.credly.com/badges/2abd9220-34b3-472a-beb9-3916c6a747fc/linked_in_profile)
+
 
 -----
 
@@ -92,8 +90,7 @@
 
 -----
 
-### 📅 Contributions Calendar:
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=birat04&theme=react-dark)
+
 
 -----
 
