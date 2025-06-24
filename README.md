@@ -95,14 +95,14 @@
 -----
 
 ### 🎯 Fun Projects:
-🚀 **AI Chat Application** - A Next.js chatbot integrated with GPT-4 API on making.  
-![AI Chat App Preview](https://via.placeholder.com/600x400)  
+🚀 **Brainly** - Building a second brain app
+![Brainly App Preview](https://github.com/birat04/Brainly)  
 
-🔗 **E-Commerce Platform** - A full-stack MERN application with payment integration on making.  
-![E-Commerce Platform Preview](https://via.placeholder.com/600x400)  
+🔗 **ZynkDrive** - A modern, full-featured cloud storage and file sharing platform.  
+![ZynkDrive Preview](https://github.com/birat04/ZynkDrive)  
 
-🔗 **Expenses-Tracker** - A full-stack MERN application on making.  
-![Expenses-Tracker Preview](https://via.placeholder.com/600x400)  
+🔗 **Subscription -Tracker** - A full-stack MERN application.  
+![Subscription -Tracker Preview](https://github.com/birat04/Subscription-tracking-api)  
 
 -----
 
