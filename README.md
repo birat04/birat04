@@ -1,7 +1,6 @@
 ![MasterHead](https://user-images.githubusercontent.com/74038190/241765440-80728820-e06b-4f96-9c9e-9df46f0cc0a5.gif)
 
 <div align="center">
-  <img src="https://i.imgur.com/A5bB9Yw.gif" width="100%" alt="Banner" />
 
   <h1>👋 Hi there, I'm <span style="color:#4CAF50;">Birat Roka</span></h1>
   
@@ -122,6 +121,7 @@
 
 ### 🎯 Fun Projects:
 🚀 **Brainly** - Building a second brain app
+
 ![Brainly App Preview](https://github.com/birat04/Brainly)  
 
 🔗 **ZynkDrive** - A modern, full-featured cloud storage and file sharing platform.  
